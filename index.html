@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wintering Well | Find Peace in Winter's Quiet Season</title>
+    <meta name="description" content="Transform your winter with 24 mindful chapters, soul-warming recipes & gentle rituals. 4.9★ rated by 12,847+ readers. Available on Amazon worldwide.">
+    <meta name="keywords" content="winter mindfulness book, seasonal depression help, hygge guide, winter wellness, cozy self-care, winter reading">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="snow-container"></div>
+
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            🎁 <strong>WINTER SPECIAL:</strong> 40% OFF + Free Bonuses (£44 Value) | 
+            <span class="countdown-inline">Ends: <span id="headerTimer">23:47:32</span></span>
+            <a href="#order" class="announcement-cta">Claim Now →</a>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-logo">❄ The Wintering Well</div>
+            <div class="nav-links">
+                <a href="#features">What's Inside</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#blog">Blog</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <a href="#order" class="nav-btn">Get 40% OFF</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="social-badge pulse">🔥 <strong>472</strong> sold in last 24 hours</div>
+                <h1 class="hero-title">The Wintering Well</h1>
+                <h2 class="hero-subtitle">Find Peace in the Season Everyone Else Dreads</h2>
+                <p class="hero-description">24 cozy chapters • 50+ mindfulness practices • 15 soul-warming recipes • Gentle journal prompts</p>
+                <div class="rating-display">
+                    <div class="stars">★★★★★</div>
+                    <span class="rating-text"><strong>4.9/5</strong> from 12,847+ readers</span>
+                </div>
+                <div class="cta-group">
+                    <a href="#order" class="btn btn-primary btn-large pulse-slow">
+                        <span class="btn-icon">🎁</span>
+                        Get Your Copy Now - 40% OFF
+                        <span class="btn-price">Only £5.99 (was £9.99)</span>
+                    </a>
+                    <a href="#blog" class="btn btn-secondary btn-large">
+                        <span class="btn-icon">📖</span>
+                        Read Free Blog Articles
+                    </a>
+                </div>
+                <div class="trust-badges">
+                    <span>✓ Instant Delivery</span>
+                    <span>✓ 30-Day Guarantee</span>
+                    <span>✓ Read on Any Device</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="book-showcase">
+                    <img src="https://i.postimg.cc/0NRQyj7G/Gemini-Generated-Image-e34a5ie34a5ie34a.png" alt="The Wintering Well book cover" class="book-cover">
+                    <div class="bonus-badge">
+                        <div class="bonus-icon">🎁</div>
+                        <div class="bonus-text">FREE<br>BONUSES</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" class="order-section">
+        <div class="container">
+            <h2 class="section-title">Choose Your Country & Get Your Copy</h2>
+            <p class="section-subtitle">Available on Amazon worldwide • Instant access • All bonuses included</p>
+
+            <div class="country-selector">
+                <h3>🌍 Select Your Amazon Store:</h3>
+                <div class="country-grid">
+                    <button class="country-btn active" data-country="uk" onclick="selectCountry('uk')">🇬🇧 UK</button>
+                    <button class="country-btn" data-country="us" onclick="selectCountry('us')">🇺🇸 USA</button>
+                    <button class="country-btn" data-country="ca" onclick="selectCountry('ca')">🇨🇦 Canada</button>
+                    <button class="country-btn" data-country="de" onclick="selectCountry('de')">🇩🇪 Germany</button>
+                    <button class="country-btn" data-country="fr" onclick="selectCountry('fr')">🇫🇷 France</button>
+                    <button class="country-btn" data-country="es" onclick="selectCountry('es')">🇪🇸 Spain</button>
+                    <button class="country-btn" data-country="it" onclick="selectCountry('it')">🇮🇹 Italy</button>
+                    <button class="country-btn" data-country="nl" onclick="selectCountry('nl')">🇳🇱 Netherlands</button>
+                    <button class="country-btn" data-country="jp" onclick="selectCountry('jp')">🇯🇵 Japan</button>
+                    <button class="country-btn" data-country="au" onclick="selectCountry('au')">🇦🇺 Australia</button>
+                    <button class="country-btn" data-country="br" onclick="selectCountry('br')">🇧🇷 Brazil</button>
+                    <button class="country-btn" data-country="mx" onclick="selectCountry('mx')">🇲🇽 Mexico</button>
+                    <button class="country-btn" data-country="in" onclick="selectCountry('in')">🇮🇳 India</button>
+                </div>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card recommended">
+                    <div class="recommended-badge">🏆 MOST POPULAR</div>
+                    <h3>eBook (Kindle)</h3>
+                    <div class="price-display">
+                        <span class="sale-price">40% OFF</span>
+                    </div>
+                    <ul class="includes-list">
+                        <li>✅ Instant digital delivery</li>
+                        <li>✅ Read on any device</li>
+                        <li>✅ All 4 bonus gifts</li>
+                        <li>✅ 30-day guarantee</li>
+                    </ul>
+                    <a href="#" id="ebookLink" class="btn btn-buy btn-large" target="_blank" rel="noopener">
+                        Buy eBook on Amazon
+                        <span class="btn-subtext">Instant Delivery</span>
+                    </a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Paperback</h3>
+                    <div class="price-display">
+                        <span class="sale-price">29% OFF</span>
+                    </div>
+                    <ul class="includes-list">
+                        <li>✅ Beautiful matte finish</li>
+                        <li>✅ Premium pages</li>
+                        <li>✅ Perfect gift</li>
+                        <li>✅ 30-day guarantee</li>
+                    </ul>
+                    <a href="#" id="paperbackLink" class="btn btn-buy btn-large" target="_blank" rel="noopener">
+                        Buy Paperback on Amazon
+                        <span class="btn-subtext">Ships in 24 Hours</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2 class="section-title">📚 Winter Wellness Blog</h2>
+            <p class="section-subtitle">Free mindfulness tips, recipes & seasonal wisdom</p>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">🍵</div>
+                    <h3>10 Winter Mindfulness Exercises</h3>
+                    <p>Quick practices for busy mornings...</p>
+                    <a href="blog/mindfulness-exercises.html" class="blog-link">Read More →</a>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">🍲</div>
+                    <h3>5 Soul-Warming Soup Recipes</h3>
+                    <p>Nourishing soups for cozy evenings...</p>
+                    <a href="blog/soup-recipes.html" class="blog-link">Read More →</a>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">❄️</div>
+                    <h3>Beat Seasonal Depression Naturally</h3>
+                    <p>Science-backed strategies...</p>
+                    <a href="blog/seasonal-depression.html" class="blog-link">Read More →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 The Wintering Well. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/country-selector.js"></script>
+</body>
+</html>
